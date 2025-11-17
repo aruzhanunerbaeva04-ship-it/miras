@@ -1,0 +1,143 @@
+.history-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background-color: white;
+}
+
+.history-text {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.history-text h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.history-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.history-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.history-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+/* БӨЛІМ ТАҚЫРЫБЫ ЖӘНЕ ТЕКСТ */
+.innovation-section {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.innovation-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.innovation-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto 60px;
+}
+
+/* 4 БӨЛІК */
+.innovation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+}
+
+/* ӘР БӨЛІК */
+.innovation-item {
+    text-align: left;
+    padding: 20px;
+}
+
+.innovation-item img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.innovation-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.innovation-item p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.5;
+}
+.cards-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.card {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 40, 120, 0.45); /* көк түсті мөлдір слой */
+}
+
+.card-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: white;
+    color: #0033cc;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
